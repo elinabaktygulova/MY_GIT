@@ -1,4 +1,4 @@
-import java.util.Arrays; // Импорт для использования класса Arrays
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class JavaArrays {
