@@ -16,7 +16,6 @@ public class JavaPolindrome {
     }
 
     public static boolean isPalindrome(String str) {
-        // Удаляем все пробелы и приводим строку к нижнему регистру для универсальности
         str = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         int left = 0;
         int right = str.length() - 1;
